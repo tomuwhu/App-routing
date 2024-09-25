@@ -8,12 +8,12 @@
 
 <Router {url}>
   <nav>
-    <Link to="/">Home</Link>
-    <Link to="/about">About</Link>
+    <Link to="{url}/">Home</Link>
+    <Link to="{url}/about">About</Link>
   </nav>
   <main>
-    <Route path="/about" component={About} />
-    <Route path="/" component={Home} />
+    <Route path="{url}/about" component={About} />
+    <Route path="{url}/" component={Home} />
   </main>
 </Router>
 
