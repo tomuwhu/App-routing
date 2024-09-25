@@ -30,7 +30,8 @@ body {
 
 main {
   margin: 0;
-  display: inline-flex;
+  margin-top: 50px;
+  display: inline-block;
   place-items: center;
   text-align: center;
   min-height: 70vh;
